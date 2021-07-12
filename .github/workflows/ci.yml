@@ -6,8 +6,7 @@ on:
 jobs:
   check-application:    
     runs-on: ubuntu-latest
-    steps:
-      - name: Unit Tests
+    steps:      
       - uses: actions/checkout@v2
       - run: npm i
       - run: npm run test
