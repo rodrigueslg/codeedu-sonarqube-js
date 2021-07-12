@@ -1,0 +1,16 @@
+{
+  "name": "codeedu-sonarqube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "sonar-scanner": "^3.1.0"
+  }
+}
